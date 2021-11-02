@@ -1,0 +1,76 @@
+input[type = "text"], input[type = "password"]{
+	width: 70%;
+	padding: 8px;
+	outline: none;
+	border: none;
+	margin: 0 0 10px 25px;
+}
+button{
+	padding: 8px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	background-color: #2eadf5;
+	border-radius: 5px;
+	color: #fff;
+	width: 73%;
+	margin: 0 0 0 25px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	min-width: 100%;
+	background-color: #80bf41;
+	height: 177px;
+	margin-bottom: -25px;
+	box-shadow: 0px 9px 10px grey;
+}
+.header-text{
+	font: normal 200% 'trebuchet ms', arial, sans-serif;
+	padding: 0.5% 0 0 42%;
+	color: #fff;
+	user-select: none;
+}
+.header-photo{
+	width: 300px;
+	margin-top: -200px;
+}
+.login{
+	margin: 40px 35% 0 35%;
+	padding: 4%;
+	background-color: #f3f3f3;
+	border-radius: 7px;
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1366px){
+	.header, .header-text, .header-photo{
+		margin: 0;
+		padding: 0;
+	}
+	.header{
+		height: 140px;
+		padding-top: 2%;
+		margin-bottom: -5%;
+	}
+	.header-text{
+		font-size: 1.2em;
+		text-align: center;
+	}
+	.header-photo{
+		margin-top: -28%;
+		margin-left: 6%;
+	}
+	.login{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		margin-top: 6%;
+		text-align: center;
+	}
+	input[type = "text"], input[type = "password"], button{
+		margin: 0 0 3% 0;
+	}
+}
